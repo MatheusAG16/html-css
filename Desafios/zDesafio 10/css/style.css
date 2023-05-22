@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@400;600;700&display=swap');
+
+@font-face {
+    font-family: Android;
+    src: url(../fontes/idroid.otf) format(TrueType);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #84e1ad;
+}
+
+header{
+    height: 175px;
+    margin: -8px;
+    background-image: linear-gradient(to bottom, #3cd983, #185333);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#cabecalho{
+    margin-top: -30px;
+}
+
+div#cabecalho > h1{
+    padding-top: 30px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+div#cabecalho > p{
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+nav#menu{
+    padding: 10px;
+    text-align: left;
+}
+
+nav#menu > a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+section#corpo{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    margin-top: 8px;
+    padding: 10px;
+    box-shadow: 3px 1px 10px #2c4c3a;
+}
+
+div#corpo > h1{
+    font-family: 'Android', Helvetica, sans-serif;
+    color: #336e4e;
+}
+
+div#corpo > h2{
+    font-family: 'Android', Helvetica, sans-serif;
+    color: #20613e;
+    background-image: linear-gradient(to right, #d1efdf, white);
+}
+
+div#corpo > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+    line-height: 1.4;
+}
+
+div#corpo > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p > a{
+    color: #20613e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div#iframe{
+    padding-top: 30px;
+    height: 405px;
+    width: 800px;
+    background-color: #20613e;
+    text-align: center;
+}
+
+section#extra{
+    height: 420px;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c5ebd6;
+    border-radius: 10px;
+}
+
+h2#extra{
+    background-color: #2fa866;
+    color: white;
+    padding: 5px;
+    text-indent: 5px;
+    font-size: 1em;
+    border-radius: 10px 0px 10px 0px;
+}
+
+div#extra > p{
+    text-indent: 30px;
+    padding: 10px;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+    line-height: 1.4;
+}
+
+div#esquerda{
+    width: 380px;
+    float: left;
+}
+
+div#direita{
+    width: 416px;
+    float: right;
+}
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: #1a5c38;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+footer > p{
+    margin: 0px;
+}
