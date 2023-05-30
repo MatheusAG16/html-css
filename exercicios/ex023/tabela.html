@@ -12,21 +12,22 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
 
-        tr.linha1 {
-            background-color: gray;
-        }
 
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /*Alinhamento Horizontal*/
+            vertical-align: middle; /*Alinhamento Vertical*/
         }
 
-        td.dadob2 {
-            background-color: yellow;
+        td.numero {
+            text-align: right;
         }
+
     </style>
 </head>
 <body>
@@ -40,19 +41,19 @@
                 TABLE DATA = dados ta tabela
     -->
     <table>
-        <tr class="linha1"> <!--Primeira linha-->
-            <td>A1
+        <tr> <!--Primeira linha-->
+            <td class="numero">05
             <td>B1
             <td>C1
         
         <tr>
             <td>A2
-            <td class="dadob2">B2
+            <td>B2
             <td>C2
         
         <tr>
             <td>A3</td>
-            <td>B3</td>
+            <td class="numero">96</td>
             <td>C3</td>
         </tr>
         <tr>
