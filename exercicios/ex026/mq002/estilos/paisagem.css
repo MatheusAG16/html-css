@@ -1,3 +1,10 @@
 @charset 'UTF-8';
 
 /*Modo paísagem*/
+
+body {
+    background: url(../images/cev-landscape.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
